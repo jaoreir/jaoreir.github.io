@@ -4,7 +4,7 @@
     --grey: #928374;
     --neutral_orange: #d65d0e;
     --neutral_yellow: #d79921;
-    --neutral_yellow_transparent: #d7992110;
+    --neutral_yellow_transparent: #d7992130;
     --neutral_green: #98971a;
 }
 
@@ -36,7 +36,8 @@ h2>a {
     color: var(--neutral_orange);
 }
 
-h3, h3>a {
+h3,
+h3>a {
     color: var(--neutral_green);
 }
 
@@ -54,6 +55,10 @@ a:hover {
     text-decoration: underline;
 }
 
+b {
+    color: var(--neutral_yellow);
+}
+
 ul {
     list-style-position: inside;
 }
@@ -63,11 +68,14 @@ li.disabled::marker {
 }
 
 summary {
+    line-height: 2;
     color: var(--neutral_yellow);
 }
 
-details[open]>summary {
+details[open] {
     background-color: var(--neutral_yellow_transparent);
+    padding: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 
 summary:hover {

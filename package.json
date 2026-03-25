@@ -1,0 +1,25 @@
+{
+  "name": "simplelinkpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaoreir/SimpleLinkPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jaoreir/SimpleLinkPage/issues"
+  },
+  "homepage": "https://github.com/jaoreir/SimpleLinkPage#readme",
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}
