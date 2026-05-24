@@ -36,9 +36,18 @@ h2>a {
     color: var(--neutral_orange);
 }
 
-h3,
+h3 {
+    color: var(--neutral_green);
+}
+
 h3>a {
     color: var(--neutral_green);
+    text-decoration-line: underline;
+}
+
+h3>a:hover {
+    color: var(--neutral_yellow);
+    text-decoration-line: underline;
 }
 
 a {
